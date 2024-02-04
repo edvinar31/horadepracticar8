@@ -3,7 +3,51 @@
 
 let ListaGenerica = [];
 
-ejercicio2
+//ejercicio2
+//Crea una lista de lenguajes de programación llamada "lenguagesDeProgramacion con los siguientes elementos: 'JavaScript', 'C', 'C++', 'Kotlin' y 'Python'.
 
-Crea una lista de lenguajes de programación llamada "lenguagesDeProgramacion con los siguientes elementos: 'JavaScript', 'C', 'C++', 'Kotlin' y 'Python'.
+let lenguajesDeProgramacion =["JavaScript", "c", "c++","kotlin","Python"];
 
+//ejercicio 3
+//Agrega a la lista "lenguagesDeProgramacion los siguientes elementos: 'Java', 'Ruby' y 'GoLang'.
+
+lenguajesDeProgamacion.push("Java","Ruby","GoLang");
+
+//ejerciico 4
+//Crea una función que muestre en la consola todos los elementos de la lista "lenguagesDeProgramacion.
+
+function lenguajesDeProgramacion (){
+  for (let i= 0; < lenguajesDeProgamacion.length ; i++){
+  console.log(lenguajesDeProgamacion[i]);
+  }
+}
+
+lenguajesDeProgramacion();
+
+//ejercicio 5
+//Crea una función que muestre en la consola todos los elementos de la lista "lenguagesDeProgramacion en orden inverso.
+
+function mostrarLenguajesDeProgramacion(){
+  for (let i= mostrarLenguajeDeProgramacion.length -1; i >= 0; i--){
+  console.log(mostrarLenguajeDeProgramacion[i]);
+  }
+
+}
+
+  mostrarLenguajeDeProgramacion();
+
+//ejercicio6
+//Crea una función que calcule el promedio de los elementos en una lista de números.
+
+
+
+function calcularPromedio(lista){
+  let suma=0;
+  for (let i= 0; i< lista.length; i++){
+  suma += lista[i];
+  }
+  return suma/lista.length;
+}
+let numeros = [2,4,6,8];
+let media=caldularPormedio[numeros];
+console.log("media:"media);
